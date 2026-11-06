@@ -1,0 +1,28 @@
+name: z2ron_store
+description: z2roN_Store - 매장 관리 프로그램 (판매/상품/재고/고객, Windows + Android)
+publish_to: 'none'
+version: 0.2.0+2
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.3
+  intl: ^0.19.0
+  pdf: ^3.11.0
+  printing: ^5.13.0
+  mobile_scanner: ^5.2.3
+  file_picker: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
